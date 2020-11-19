@@ -28,7 +28,7 @@ class HorizontalViewMore: UIView {
     }
     
     func createViews() {
-        let view : UIView = UIView.init(frame: CGRect.zero)
+        var view : UIView = UIView.init(frame: CGRect.zero)
         self.lblContainer = view;
         self.lblContainer.isUserInteractionEnabled = false
         self.lblContainer.translatesAutoresizingMaskIntoConstraints = false;
