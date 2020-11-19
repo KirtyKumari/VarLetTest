@@ -28,9 +28,9 @@ class HorizontalViewMore: UIView {
     }
     
     func createViews() {
-        var view : UIView = UIView.init(frame: CGRect.zero)
+        let view : UIView = UIView.init(frame: CGRect.zero)
         self.lblContainer = view;
-        //self.lblContainer.isUserInteractionEnabled = false
+        self.lblContainer.isUserInteractionEnabled = false
         self.lblContainer.translatesAutoresizingMaskIntoConstraints = false;
         self.addSubview(self.lblContainer)
         self.lblContainer.backgroundColor = UIColor.clear;
