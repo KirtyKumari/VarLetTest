@@ -10,7 +10,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let footerView = HorizontalViewMore()
         self.horizontalViewMore = footerView
-        self.horizontalViewMore.initializeUI()
         self.horizontalViewMore.isUserInteractionEnabled = false
         self.horizontalViewMore.translatesAutoresizingMaskIntoConstraints = false;
         self.horizontalViewMore.layer.borderWidth = 1.0;
